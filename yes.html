@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app>
+<head>
+<script src="C:\Users\DHARSHINI\Desktop\success\angular.min.js">
+</script>
+<style>
+#c1
+{
+	color:white;
+	background-color:black;
+	width:150px;
+	height:50px;
+	position:fixed;
+	top:35%;
+	right:22%;
+
+}
+#t1
+{
+	font-size:25px;
+	color:purple;
+	position:fixed;
+	top:40%;
+	right:15%;
+
+}
+</style>
+<body ng-init="count=0">
+<button id="c1" ng-click="count=count+1"> Press </button>
+<p id="t1">
+{{"You pressed the buttton for "+count+" times"}}
+</p>
+<svg height="1000" width="1000">
+<circle cx="300" cy="300" r="200" stroke="blue" stroke-width="20px" fill="pink">
+</circle>
+<text fill="black" font-size="50px" font-family="ariel" x="150" y="300">
+Button Property
+</text>
+</svg>
+</body>
+</html>
